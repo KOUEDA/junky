@@ -1,62 +1,56 @@
 Password Cracking Unit Quiz
-
-Unit 2 Question
-True or False: Hashes can be precomputed from a dictionary file.
-*True
-False
-
-Unit 2 Question
-True or False: Keystroke logging, phishing, and social engineering attacks work just as well on lengthy, complex passwords as they do on simple ones.
-*True
-False
-
-Unit 2 Question
-True or False: Salt is meant to prevent a password from being guessed.
-True
-*False
-
-Unit 2 Question
-Which of these about passwords and hashes is true?
-Plaintext passwords are longer than hashes
-Hashes are less secure than plaintext passwords
-*Hashes are longer than plaintext passwords
-Hashes are always the same length as their corresponding plaintext passwords
-
-Unit 2 Question
-True or False: Which of the following is a program that you would use for a brute force attack?
+Which of the following is a program that you would use for a brute force attack?
 M&Ms
 *Crunch
 Kit Kat
 Hershey Bar
+correct
 
-Unit 2 Question
-Passwords today should be stored in a database as:
-Plaintext
-MD5 hash
-SHA-1 hash
-*SHA-256 or SHA-512 hash
+How many columns of each chain are stored in a rainbow table?
+One
+*two correct
+All of them
+Varies by rainbow table
 
-Unit 2 Question
-Which of these is the largest dictionary file?
-thechampions.txt
-bohemianrhapsody.txt
-*rockyou.txt
-bitesthedust.txt
+True or False: Salt is meant to prevent a password from being guessed.
+True
+*False correct
 
-Unit 2 Question
+bcrypt and PBKDF2 are good cybersecurity alternatives to SHA-256 and SHA-512, because those functions are:
+*Slower correct
+Closed source
+Quicker
+Encrypted
+
+True or False: Hashes can be precomputed from a dictionary file.
+*True
+False
+
+What will happen if a hacker enters a stolen hash into a password field?
+*The hash will be hashed. correct
+The hash will be encrypted with the private key of the system.
+The hash will be encrypted with the public key of the system.
+The hash will be accepted as a valid password.
+
+Which of the following statements is true?
+*A rainbow table uses less processing and more storage than a brute force attack, but more processing and less storage than a dictionary attack.
+A rainbow table uses more processing and more storage than a brute force attack, and less processing and more storage than a dictionary attack.
+A rainbow table uses more processing and less storage than a brute force attack, but less processing and more storage than a dictionary attack.
+A rainbow table uses less processing and more storage than a brute force attack, and less processing and more storage than a dictionary attack.
+
 In a rainbow table, a stolen password hash is initially compared to:
 The beginning part of a chain
 The middle part of a chain
 *The ending part of a chain
 
-Unit 2 Question
 True or False: When an attacker wants to break a single password with a brute force or dictionary attack, salts offer no protection.
 *True
 False
 
-Unit 2 Question
-When a hacker has a valid username and enters passwords at a login prompt (manually or through automation) to gain access to an account, it is called:
-Rainbow Table Attack
-Dictionary Attack
-*Password Guessing
-Brute Force Attack
+6.5 million LinkedIn password hashes were leaked in June 2012. In this case, LinkedIn was storing the passwords:
+*Using SHA-1 without salt
+Using MD5
+Using SHA-1 with salt
+In plaintext
+
+
